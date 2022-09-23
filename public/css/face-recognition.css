@@ -1,0 +1,48 @@
+div.recognition {
+    display: grid;
+}
+div.recognition canvas {
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+div.recognition video {
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+
+
+/* ======================================== Face Register ======================================== */
+
+div.face-recognition.register div.register,
+div.face-recognition.register div.test {
+    border-radius: 80px;
+}
+div.face-recognition.register div.recognition {
+    /* width: 850px !important; 
+    height: 620px !important; */
+
+    width: 720px !important; 
+    height: 540px !important;
+    
+    /* width: 520px !important; 
+    height: 390px !important; */
+    
+    position: relative;
+}
+
+
+/* ======================================== Bundy ======================================== */
+div.face-recognition.clock div.recognition {
+    /* width: 1000px !important; 
+    height: 750px !important; */
+
+    width: 500px !important; 
+    height: 375px !important;
+
+    /* width: 400px !important; 
+    height: 300px !important; */
+}
+div.face-recognition.clock div.logs .box {
+    width: 400px !important; 
+    height: 350px !important;
+}
